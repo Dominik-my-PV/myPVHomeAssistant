@@ -5,19 +5,25 @@
       "user": {
           "title": "Connection method of your my-PV device",
           "menu_options": {
-              "ip_known": "[%key:my_pv::config::step::user::ip_known%]",
-              "ip_unknown": "[%key:my_pv::config::step::user::ip_unknown%]",
-              "automatic_scan": "[%key:my_pv::config::step::user::automatic_scan%]"
+              "ip_known": "a",
+              "ip_unknown": "b",
+              "automatic_scan": "c"
           }
       },
       "ip_known": {
         "data": {
           "host": "[%key:common::config_flow::data::host%]"
+        },
+        "data_description": {
+            "host": "Set the IP address of the device"
         }
       },
       "ip_unknown": {
         "data": {
           "subnet": "Enter your subnet"
+        },
+        "data_description": {
+            "subnet": "Set the IP subnet by providing the first 3 octets"
         }
       },
       "select_device": {
@@ -31,14 +37,14 @@
     },
     "error": {
       "could_not_connect": "[%key:common::config_flow::error::cannot_connect%]",
-      "host_already_configured": "[%key:common::config_flow::error::already_configured%]",
+      "host_already_configured": "d",
       "no_devices_found": "No devices found in your subnet",
       "invalid_subnet": "Invalid subnet",
-      "invalid_ip": "[%key:common::config_flow::error::invalid_ip%]"
+      "invalid_ip": "e"
     },
     "abort": {
       "host_exists": "[%key:common::config_flow::abort::already_configured_device%]",
-      "invalid_ip_address": "[%key:common::config_flow::abort::invalid_ip_address%]",
+      "invalid_ip_address": "f",
       "no_devices_found": "No devices found in your subnet"
     }
   }
