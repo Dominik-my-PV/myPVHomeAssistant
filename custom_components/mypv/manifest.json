@@ -1,12 +1,12 @@
 {
   "domain": "mypv",
   "name": "my-PV",
-  "codeowners": ["@zaubererty", "@EldarKarahasanovic", "@melik787"],
+  "codeowners": ["@Dominik-my-PV"],
   "config_flow": true,
   "dependencies": [],
-  "documentation": "https://github.com/EldarKarahasanovic/myPVHomeAssistant",
+  "documentation": "https://github.com/Dominik-my-PV/myPVHomeAssistant",
   "iot_class": "local_polling",
-  "issue_tracker": "https://github.com/EldarKarahasanovic/myPVHomeAssistant/issues",
+  "issue_tracker": "https://github.com/Dominik-my-PV/myPVHomeAssistant/issues",
   "requirements": [],
-  "version": "1.2"
+  "version": "1.4.1"
 }
