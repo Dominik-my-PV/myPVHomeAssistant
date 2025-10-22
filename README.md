@@ -82,7 +82,7 @@ Preview:<br>
 - Enable autodiscovery mDNS
 
 ### 2-IN PROGRESS:
-- Release to HACS
+- Release to HACS test
 
 ### 3-DONE:
 - Monitoring of all status values
