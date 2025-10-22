@@ -1,6 +1,6 @@
 # my-PV Home Assistant Integration
 
-Home Assistant integration for my-PV
+The myPVHomeAssistant Integration is used to integrate with the devices of [my-PV GmbH](https://www.my-pv.com). Supported devices are ACTHOR, ELWA, ELWA2 and WiFi-Meter.
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge)](https://github.com/custom-components/hacs)
 
@@ -75,6 +75,9 @@ views:
 </details>
 Preview:<br>
 <img height = "600" width ="350" src = "https://github.com/user-attachments/assets/4d01b350-48f4-4f63-8885-3d4442b7d389">
+
+### Removal Instructions
+This integration follows standard integration removal. No extra steps are required.
 
 ### 1-TODO:
 - clean up and testing code
