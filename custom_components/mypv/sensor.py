@@ -82,6 +82,9 @@ class MypvDevice(CoordinatorEntity):
         self._last_value = None
         self.serial_number = self.coordinator.data["info"]["sn"]
         self.model = self.coordinator.data["info"]["device"]
+        self._attr_unique_id = (
+            f"mypv_device_{self._name}_{self._type}_{self._sensor}_{self.serial_number}"
+        )
         _LOGGER.debug(self.coordinator)
 
     @property
